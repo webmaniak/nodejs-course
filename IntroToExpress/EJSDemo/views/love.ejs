@@ -1,0 +1,9 @@
+<% include partials/header %>
+
+<h1>You fell in love with <%= thingVar %></h1>
+
+<% if (thingVar.toLowerCase() === "me") { %>
+<p><em>Actually</em>, we say "myself", piece of narcissic body!</p>
+<% } %>
+
+<% include partials/footer %>
